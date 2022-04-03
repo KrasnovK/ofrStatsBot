@@ -1,8 +1,8 @@
 # ofrStatsBot
 
-#####Обращаемся к URL  
+##### Обращаемся к URL  
 ___
-#####Общие параметры  
+##### Общие параметры  
 ```
 Params - пусто  
 Authorization - пусто  
@@ -12,7 +12,7 @@ Body - JSON запроса, ничего лишнего только {"command":
 ```
 ___
 
-####Список анкет - GetProjectPeriods
+##### Список анкет - GetProjectPeriods
 ```json
 {
   "command": "GetProjectPeriods",
@@ -24,7 +24,7 @@ ___
 }
 ```
 
-####Список анкет - GetFormsList
+##### Список анкет - GetFormsList
 ```json
 {
 "command": "GetFormsList",
@@ -42,7 +42,7 @@ ___
 }
 ```
 
-####Содержимое анкет - GetFormInternalFieldsData
+##### Содержимое анкет - GetFormInternalFieldsData
 
 ```json
 {
